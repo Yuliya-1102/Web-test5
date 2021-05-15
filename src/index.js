@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			});
 			cardItemPic.forEach((elem, index) => {
 				if(i === index) {
-					elem.src = `../images/${item.image}`;
+					elem.src = `./images/${item.image}`;
 				}
 			});
 		});
